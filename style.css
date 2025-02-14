@@ -1,0 +1,44 @@
+/* General Styles */
+body {
+    background-color: #c2c2a3;
+    font-family: 'Noto Sans Khmer', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.title-top {
+    color: #8E24AA;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid transparent;
+    display: inline-block;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.image-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.title-bottom {
+    color: #5D4037;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
